@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  // color: gray;
+}
+
+// h1,
+// h2,
+// h3 {
+//   color: rgb(53, 53, 53);
+// }
+
+.main {
+  height: calc(100vh - 62px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+@import "./dark-mode"

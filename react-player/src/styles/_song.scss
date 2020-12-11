@@ -1,0 +1,32 @@
+.song-container {
+  // min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 30%;
+    // border-radius: 50%;`
+    border-radius: 5px;
+
+    @media (max-width:1024px) {
+      width: 40%
+    }
+    @media (max-width:768px) {
+      width: 60%
+    }
+
+    @media (max-width:576px) {
+      width: 80%
+    }
+  }
+
+  h2 {
+    padding: 2rem 1rem 1rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+}

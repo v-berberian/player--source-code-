@@ -1,0 +1,45 @@
+
+  .light-background {
+    background-color: white;
+    transition: 0.5s;
+  }
+  
+  .dark-background {
+    transition: 0.5s;
+    background-color: black !important;
+    color: white ;
+  }
+  
+  .dark-mode {
+    padding: 4px 32px;
+    font-size: 5.5rem;
+    height: initial;
+
+
+    &:hover {
+      cursor: pointer;
+      color: rgb(209, 0, 0);
+      transition: 0.15s;
+    }
+  }
+
+.library-song-dark-mode {
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    cursor: pointer;
+  
+    &:hover {
+        background-color: #860e0e;
+        transition: 0.2s;
+    }
+  
+    img {
+      width: 40%;
+    }
+  }
+  
+  .dark-mode-selection {
+    background-color: #860e0e;
+  }
+  
